@@ -1,4 +1,5 @@
 import React from "react";
+import { WEB_SITE } from "config";
 
 export default async function Comments({ postSlug }: { postSlug: string }) {
   const WEBSITE_URL = "http://localhost:3000";
@@ -6,10 +7,9 @@ export default async function Comments({ postSlug }: { postSlug: string }) {
   let comments = [];
 
   try {
-    const commentsResult = await fetch(
-      `${WEBSITE_URL}/api/comments/${postSlug}`,
-      { next: { revalidate: 5 } }
-    );
+    const commentsResult = await fetch(`${WEB_SITE}/api/comments/${postSlug}`, {
+      next: { revalidate: 5 },
+    });
     const response = await commentsResult.json();
     console.log(response);
     comments = response.comments.rows;
