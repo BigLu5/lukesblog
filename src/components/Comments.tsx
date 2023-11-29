@@ -26,7 +26,9 @@ export default async function Comments({ postSlug }: { postSlug: string }) {
         <label htmlFor="username">Name:</label>
         <input type="text" name="username" />
 
-        <label htmlFor="comment">Your comment:</label>
+        <label className="text-neutral-900" htmlFor="comment">
+          Your comment:
+        </label>
         <textarea
           name="comment"
           cols={30}
