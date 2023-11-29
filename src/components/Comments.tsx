@@ -2,8 +2,6 @@ import React from "react";
 import { WEB_SITE } from "config";
 
 export default async function Comments({ postSlug }: { postSlug: string }) {
-  const WEBSITE_URL = "http://localhost:3000";
-
   let comments = [];
 
   try {
