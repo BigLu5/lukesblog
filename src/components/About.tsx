@@ -34,10 +34,10 @@ export default function About() {
         developer or UX designer.
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy long walks
-        outdoors, playing video games, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
+        <span className="italic">When I&apos;m not coding</span>, I enjoy long
+        walks outdoors, playing video games, and playing with my dog. I also
+        enjoy <span className="font-medium">learning new things</span>. I am
+        currently learning about{" "}
         <span className="font-medium">
           marketing and social media management
         </span>
