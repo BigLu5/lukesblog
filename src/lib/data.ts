@@ -68,22 +68,28 @@ export const projectsData = [
   {
     title: "Dealio",
     description:
-      "Worked as part of a team to create a CRUD application, I worked on creating and seeding the database, implementing the GET and DELETE methods whilst implementing a form into the application.",
-    tags: ["React", "Vite", "MongoDB", "NodeJS"],
+      "Worked as part of a team to create a CRUD application, I worked on creating and seeding the database, implementing the GET and DELETE methods into the form.",
+    tags: ["React", "Vite", "MongoDB", "Express", "NodeJS"],
     imageUrl: dealioImg,
   },
   {
     title: "lukesblog",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    description: "A personal portfolio and blog made with Next.js.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Framer",
+      "PostgreSQL",
+    ],
     imageUrl: lbImg,
   },
   {
     title: "Math Dragons",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A maths based game that manipulates the DOM to dynamically to display text, images, and options while tracking and updating scores, and incorporating quiz-like challenges.",
+    tags: ["HTML", "JavaScript", "CSS", "Tailwind", "Framer"],
     imageUrl: mdImg,
   },
 ] as const;
