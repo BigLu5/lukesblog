@@ -89,7 +89,7 @@ export const projectsData = [
     title: "Math Dragons",
     description:
       "A maths based game that manipulates the DOM to dynamically to display text, images, and options while tracking and updating scores, and incorporating quiz-like challenges.",
-    tags: ["HTML", "JavaScript", "CSS", "Tailwind", "Framer"],
+    tags: ["HTML", "JavaScript", "CSS"],
     imageUrl: mdImg,
   },
 ] as const;
