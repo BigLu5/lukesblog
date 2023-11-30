@@ -53,7 +53,7 @@ export default function Intro() {
           TechEducators Full Stack MERN Bootcamp
         </span>{" "}
         graduate. I enjoy building <span className="italic">sites & apps</span>.
-        My focus is <span className="underline">React (Next.js) </span>.`
+        My focus is <span className="underline">React (Next.js) </span>.
       </motion.p>
     </section>
   );
