@@ -68,7 +68,7 @@ export const projectsData = [
   {
     title: "Dealio",
     description:
-      "Worked as part of a team to create a CRUD application, I worked on creating and seeding the database, implementing the GET and DELETE methods into the form.",
+      "Worked as part of a team to create a CRUD application, I worked on creating and seeding the database, implementing the GET, PUT, POST, and DELETE methods into the form.",
     tags: ["React", "Vite", "MongoDB", "Express", "NodeJS"],
     imageUrl: dealioImg,
   },
